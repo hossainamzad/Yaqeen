@@ -1,4 +1,4 @@
-This is [Yaqeen](https://yaqeeninstiture.org).
+This is [Yaqeen](https://yaqeeninstiture.org/en/homepage/).
 
 <!-- 
 Below you will find some information on how to perform common tasks.<br>
