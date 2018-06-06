@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 // import { Route } from 'react-router-dom'
 import Navbar from './Components/navbar'
 import EmailSubscription from './Components/emailSubscription'
+import ContactUs from './Components/contactUs'
+import Donate from './Components/donate'
+import Footer from './Components/footer'
 
 class App extends Component {
   state = {
@@ -13,6 +16,9 @@ class App extends Component {
         <h1>YAQEEN</h1>
         <Navbar />
         <EmailSubscription />
+        <ContactUs />
+        <Donate />
+        <Footer />
       </div>
     );
   }
