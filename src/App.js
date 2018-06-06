@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
+// uncomment the following line for route
+// import { Route } from 'react-router-dom'
 import Navbar from './Components/navbar'
 
 class App extends Component {
   state = {
-    screen: 'navbar'
   }
   render() {
     return (
       <div>
-        {this.state.screen === 'yaqeen' && (
-          <h1>YAQEEN</h1>
-          )}
-        {this.state.screen === 'navbar' && (
-          <Navbar />
-          )}
+        <h1>YAQEEN</h1>
+        <Navbar />
       </div>
     );
   }
