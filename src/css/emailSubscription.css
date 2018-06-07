@@ -1,0 +1,19 @@
+input[type=email]{
+  width: 20em;
+  /*background-color: tomato;*/
+  height: 4em;
+  margin-bottom: 1em;
+}
+input[type=submit] {
+    font-size: 12px;
+    padding: 1.5em 2em;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    background-color: RGBA(90, 152, 206, 1.00);
+}
+.submitButton{
+  padding-right: 2em;
+}

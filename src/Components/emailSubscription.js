@@ -1,16 +1,20 @@
 import React from 'react'
+import '../css/emailSubscription.css'
 const EmailSubscription = () => {
   return(
     <div>
       <h3>SIGN UP FOR UPDATES</h3>
       <input
-        type="text"
+        type="email"
         placeholder="Your E-Mail"
       />
-      <input
-        type="submit"
-        value="SIGN UP"
-      />
+      <div>
+        <input
+          className="submitButton"
+          type="submit"
+          value="SIGN UP"
+        />
+      </div>
     </div>
     )
 }
