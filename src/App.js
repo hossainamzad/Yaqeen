@@ -13,7 +13,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>YAQEEN</h1>
         <Navbar />
         <EmailSubscription />
         <ContactUs />

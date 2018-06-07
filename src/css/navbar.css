@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1.5em;
+
+}
+.image{
+  width: 210px;
+  height: 50px;
+}
+.navigation{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 1em;
+  margin-left: 50%;
+}
+.navigation li a{
+  font-family: Montserrat;
+  padding: .5em 1em;
+  color: black;
+}
