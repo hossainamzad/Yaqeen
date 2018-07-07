@@ -3,9 +3,11 @@ import React, { Component } from 'react';
 // import { Route } from 'react-router-dom'
 import Navbar from './Components/navbar'
 import EmailSubscription from './Components/emailSubscription'
-import ContactUs from './Components/contactUs'
+import ConnectWithUs from './Components/connectWithUs'
 import Donate from './Components/donate'
 import Footer from './Components/footer'
+import PhysicalLocation from './Components/physicalLocation'
+import './css/app.css'
 
 class App extends Component {
   state = {
@@ -14,9 +16,12 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        <EmailSubscription />
-        <ContactUs />
-        <Donate />
+        <div className='secondSection'>
+          <EmailSubscription />
+          <PhysicalLocation />
+          <ConnectWithUs />
+          <Donate />
+        </div>
         <Footer />
       </div>
     );

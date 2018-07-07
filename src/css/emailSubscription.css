@@ -1,3 +1,8 @@
+.emailSubscription {
+  width: 25%;
+  padding: 2em;
+  background-color: white;
+}
 input[type=email]{
   width: 20em;
   /*background-color: tomato;*/

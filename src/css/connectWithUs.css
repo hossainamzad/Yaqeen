@@ -1,0 +1,22 @@
+.connect {
+    width: 25%;
+    padding: 2em;
+    background-color: white;
+    text-align: center;
+}
+.connectUs {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.connectUs li {
+    width: 44px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 49px;
+    border-radius: 50%;
+    text-align: center;
+    list-style: none;
+}
+

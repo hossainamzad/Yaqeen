@@ -1,0 +1,16 @@
+
+.secondSection {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 4em;
+/*  margin-right: 2em;
+  margin-left: 2em;*/
+  background-color: RGBA(239, 238, 237, 1.00);
+}
+
+.childElement {
+  width: 25%;
+  padding: 2em;
+}

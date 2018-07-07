@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/emailSubscription.css'
 const EmailSubscription = () => {
   return(
-    <div>
+    <div className='emailSubscription'>
       <h3>SIGN UP FOR UPDATES</h3>
       <input
         type="email"

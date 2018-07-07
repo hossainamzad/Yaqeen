@@ -12,6 +12,7 @@ function Navbar () {
         <li><Link to="/navbar">RESEARCH</Link></li>
         <li><Link to="/navbar">MULTIMEDIA</Link></li>
         <li><Link to="/#">DONATE</Link></li>
+        <li><Link to="/#"><i className="fa fa-search"></i></Link></li>
       </ul>
     </div>
   )
