@@ -1,0 +1,31 @@
+.jumbotronSection {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+}
+
+.photos {
+    position: relative;
+    max-width: 100%;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  padding-right: 10px;
+}
+
+.images {
+  display: flex;
+  list-style: none;
+}
+
+.firstImage {
+  width: 100%;
+}
+
+.secondImage, .thirdImage {
+  width: 80%;
+  height: 80%;
+}

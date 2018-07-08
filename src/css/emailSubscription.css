@@ -8,6 +8,7 @@ input[type=email]{
   /*background-color: tomato;*/
   height: 4em;
   margin-bottom: 1em;
+  padding: 1em;
 }
 input[type=submit] {
     font-size: 12px;

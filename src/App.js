@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // uncomment the following line for route
 // import { Route } from 'react-router-dom'
 import Navbar from './Components/navbar'
+import JumbotronSection from './Components/jumbotronSection'
 import SignupForNewsLetters from './Components/signupForNewsLetters'
 import EmailSubscription from './Components/emailSubscription'
 import ConnectWithUs from './Components/connectWithUs'
@@ -17,6 +18,7 @@ class App extends Component {
     return (
       <div>
         <Navbar />
+        <JumbotronSection />
         <SignupForNewsLetters />
         <div className='secondSection'>
           <EmailSubscription />
