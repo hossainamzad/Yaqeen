@@ -1,0 +1,21 @@
+.newsLetters {
+  display: flex;
+  width: 100%;
+  padding: 2em;
+  background-color: grey;
+  text-align: center;
+}
+.heading {
+  padding-right: .5em;
+  margin-left: 10%;
+}
+
+input.newLetterInput {
+  padding-right: .5em;
+  margin-left: 2%;
+}
+
+input.submitButton {
+  padding-right: .5em;
+  margin-left: 15%;
+}
